@@ -1,0 +1,41 @@
+/* smartphones */
+@media(max-width: 500px) {
+  #houstonLabel{
+   top: 46%;
+ }
+ #londonLabel{
+   top: 10%;
+ }
+ #NYLabel{
+   top: 20%;
+   left: 25%;
+ }
+ #place3{
+  top: 29%;
+  left: 25%;
+}
+ #seattleLabel{
+  top: 20%;
+  left: 5%;
+ }
+ #place4{
+  top: 29%;
+  left: 4%;
+}
+ #sydneyLabel{
+  top: 56%;
+  left: 82%;
+}
+#place5{
+  top: 69%;
+  left: 82%;
+}
+#tokyoLabel{
+  top: 16%;
+  left: 82%;
+}
+#place6{
+  top: 29%;
+  left: 82%;
+}
+}

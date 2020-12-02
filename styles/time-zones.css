@@ -1,0 +1,147 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*
+   JavaScript Fundamentals Assignment 01
+   Developed By: Iskander Louafi
+   Developed Date:  2020-05-04
+   Filename: time-zones.css
+   This file contains styles used in the worldTime.html file.
+   */
+   @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+  box-sizing:border-box ;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+a {
+   text-decoration: none;
+}
+a:visited{
+   color: blanchedalmond;
+}
+#headbar img{
+   width: 100%;
+   height: 70px;
+}
+#localTime {
+   color: red;
+   text-align: center;
+}
+   /* map style and content positionning */
+#timemap{
+   position: relative;
+   color: red;
+}
+#map {
+   height: 300%;
+   width: 100%;
+   z-index: -1;
+   margin: 1% 0.05%;
+}
+#place1 {
+   position: absolute;
+   top: 39%;
+   left: 18%;
+   z-index: 2;
+}
+#houstonLabel {
+   position: absolute;
+   top: 36%;
+   left: 18%;
+   z-index: 2; 
+}
+#londonLabel{
+   position: absolute;
+   top: 17%;
+   left: 42.5%;
+   z-index: 2;
+}
+#place2{
+   position: absolute;
+   top: 20%;
+   left: 42.5%;
+   z-index: 2;
+}
+#NYLabel{
+   position: absolute;
+   top: 26%;
+   left: 30%;
+   z-index: 2;
+}
+#place3{
+   position: absolute;
+   top: 29%;
+   left: 30%;
+   z-index: 2;
+}
+#seattleLabel{
+   position: absolute;
+   top: 26%;
+   left: 12%;
+   z-index: 2;
+}
+#place4{
+   position: absolute;
+   top: 29%;
+   left: 12%;
+   z-index: 2;
+}
+#sydneyLabel{
+   position: absolute;
+   top: 66%;
+   left: 92%;
+   z-index: 2;
+}
+#place5{
+   position: absolute;
+   top: 69%;
+   left: 92%;
+   z-index: 2;
+}
+#tokyoLabel{
+   position: absolute;
+   top: 26%;
+   left: 90%;
+   z-index: 2;
+}
+#place6{
+   position: absolute;
+   top: 29%;
+   left: 89.5%;
+   z-index: 2;
+}
+#montrealTime, h2 {
+   text-align: center;
+   justify-content: center;
+   align-self: center;
+   align-content: center; 
+   padding: 1%;
+}
+#timemap label {
+   color: blanchedalmond;
+
+}
+/* table style */
+#table {
+  text-align: center;
+}
+#table p{
+   border:  rgb(81, 81, 185) solid 1px;
+   margin:1%;
+   padding: 2%;
+   
+}
+footer {
+   background-color: rgb(81, 81, 185);
+   color: #fff;   
+   padding:2rem;
+    text-align: center;
+}
+
+
+

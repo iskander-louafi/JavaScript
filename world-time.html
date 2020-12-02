@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jackson Electronics World Clock</title>
+    <!--Link to the external CSS named time-zones.css.css document -->
+    <link rel="stylesheet" href="styles/time-zones.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="styles/mobile.css">
+    <!--Link to the external js named time_zones.js document -->
+    <script src="scripts/time_zones.js"></script>
+    <!--
+        JavaScript Fundamentals Assignment 01
+        Jackson Electronics World Clock
+        Developed By: Iskander Louafi
+        Developed Date: 2020-05-03
+        Filename:         worldTime.html
+        Supporting files: time-zones.css.css, logo.mpg, map.jpg, time_zones.js
+    -->
+</head>
+
+<body onload="window.setInterval('timeEvent()', 1000);">
+    <form id="zonesForm" name="zonesForm" action="#">
+        <div id="headbar">
+            <img src="images/logo.jpg" alt="Jackson Electronics" />
+            <h2>Corporate Headquarters World Clock</h2>
+        </div>
+        <div id="montrealTime">
+            <label for="text">Montreal Time</label>
+            <input type="text" id="localTime" name="localTime">
+        </div>
+        <div id="timemap">
+            <label for="text" id="houstonLabel"><a href="#houston">Houston</a></label>
+            <input id="place1" name="place1" size="7" />
+            <label for="text" id="londonLabel">London</label>
+            <input id="place2" name="place2" size="7" />
+            <label for="text" id="NYLabel">New York</label>
+            <input id="place3" name="place3" size="7" />
+            <label for="text" id="seattleLabel">Seattle</label>
+            <input id="place4" name="place4" size="7" />
+            <label for="text" id="sydneyLabel">Sydney</label>
+            <input id="place5" name="place5" size="7" />
+            <label for="text" id="tokyoLabel"><a href="#tokyo">Tokyo</a></label>
+            <input id="place6" name="place6" size="7" />
+
+
+            <img src="images/black-textile-41949.jpg" alt="World Map" id="map" />
+        </div>
+
+        <div id="table">
+
+            <p>
+                <b>Jackson Electronics USA</b>
+                <br />10010 Park Street
+                <br />New York NY 10001
+                <br /><b>Phone: </b>(212) 555-1209
+                <br /><b>Fax: </b>(212) 555-4001
+            </p>
+
+            <p>
+                <b>Jackson Electronics Ltd.</b>
+                <br />2349 Mitchell Street
+                <br />Seattle, WA 65091
+                <br /><b>Phone: </b>(381) 555-5499
+                <br /><b>Fax: </b>(381) 555-3181
+            </p>
+
+            <p id="houston">
+                <b>Jackson Electronics Latin America</b>
+                <br />5150 Shasta Lane
+                <br />Houston, TX 32821
+                <br /><b>Phone: </b>(817) 555-8190
+                <br /><b>Fax: </b>(817) 555-2881
+            </p>
+
+            <p>
+                <b>Jackson Electronics Europe</b>
+                <br />18 Northland Avenue
+                <br />London, England WC2N 5EA
+                <br /><b>Phone: </b>(+44) 0 870 555 7081
+                <br /><b>Fax: </b>(+44) 0 870 555 1788
+            </p>
+
+            <p>
+                <b>Jackson Electronics Pacifica</b>
+                <br />171-105 Thomas Street
+                <br />Sydney NSW 2000, Australia
+                <br /><b>Phone: </b>(+61) 2 5555 8993
+                <br /><b>Fax: </b>(+61) 2 5555 7171
+            </p>
+
+            <p id="tokyo">
+                <b>Jackson Electronics Asia</b>
+                <br />1-2-99 Sumiyoshi
+                <br />Hakata-Ku
+                <br />Tokyo 140-8781 Japan
+                <br /><b>Phone: </b>(+81) 3 5551 7817
+                <br /><b>Fax: </b>(+81) 3 5551 2398
+            </p>
+        </div>
+
+
+    </form>
+    <footer>
+        <p>Copyright &copy; 2020, Iskander Louafi</p>
+    </footer>
+</body>
+
+</html>
